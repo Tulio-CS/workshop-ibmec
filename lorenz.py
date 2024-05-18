@@ -16,7 +16,7 @@ def lorenz(xyz, *, s=10, r=28, b=2.667):
     xyz_dot : array, shape (3,)
        Values of the Lorenz attractor's partial derivatives at *xyz*.
     """
-    x, y, z = xyz
+    x, y, z = xyz 
     x_dot = s*(y - x)
     y_dot = r*x - y - x*z
     z_dot = x*y - b*z
