@@ -14,7 +14,7 @@ class L:
         L(root)
         root.mainloop()
     def sim(event,master):
-        showinfo(message="SE PREPARA \n         ")
+        showinfo(message="SE PREPARA! \n         ")
         master.destroy()
 
 root = Tk()
